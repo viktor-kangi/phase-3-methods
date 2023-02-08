@@ -1,10 +1,13 @@
 # Your code here!
 
+def halve(number)
+    if number.class != Integer
+        return nil
+    end
 
-def greet_programmer
-    puts "Hello, programmer!"
+    number / 2
 end
-greet_programmer
+halve(4)
 
 
 
@@ -26,11 +29,7 @@ end
 sum1 = add(1, 2)
 
 
-def halve(number)
-    if number.class != Integer
-        return nil
-    end
-
-    number / 2
+def greet_programmer
+    puts "Hello, programmer!"
 end
-halve(4)
+greet_programmer
